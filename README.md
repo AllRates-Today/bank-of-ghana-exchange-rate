@@ -4,7 +4,7 @@ Official **Bank of Ghana** (Ghana) daily exchange rates in Node.js / TypeScript 
 
 These are the *published central bank rates* required for tax filings, customs valuations, audits, and compliant invoicing — not moving market rates. Every response carries the publisher's own publication date.
 
-Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/bog/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — 300 requests/month, no credit card.
+Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/bog/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required.
 
 ## Install
 
@@ -41,6 +41,14 @@ const series = await getHistory(
   { apiKey: 'art_live_...' }
 );
 ```
+
+## Currencies covered
+
+Bank of Ghana currently publishes rates covering **15 currencies** (as of the latest table):
+
+`AUD` · `CAD` · `CHF` · `CNY` · `DKK` · `EUR` · `GBP` · `GHS` · `JPY` · `NOK` · `NZD` · `SEK` · `USD` · `WAU` · `ZAR`
+
+Pairs the central bank does not print directly are resolved from this table (see below).
 
 ## Published vs derived rates
 

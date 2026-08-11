@@ -1,6 +1,6 @@
 {
   "name": "bank-of-ghana-exchange-rate",
-  "version": "1.0.3",
+  "version": "1.1.2",
   "description": "Official Bank of Ghana (Ghana) daily exchange rates — 14 currencies vs GHS, history since 2007. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bog",
