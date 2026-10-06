@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'GHS', { apiKey: 'art_live_...' });
 {
   bank: 'bog',
   name: 'Bank of Ghana',
-  rate_date: '2026-09-25',   // Bank of Ghana's own publication date
+  rate_date: '2026-10-06',   // Bank of Ghana's own publication date
   source: 'USD',
   target: 'GHS',
-  rate: 11.6225,
+  rate: 11.8,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bog',
   name: 'Bank of Ghana',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "GHS", "type": "middle", "value": 11.6225 },
-    { "base": "USD", "quote": "GHS", "type": "sell", "value": 11.6283 },
-    { "base": "USD", "quote": "GHS", "type": "buy", "value": 11.6167 },
+    { "base": "USD", "quote": "GHS", "type": "middle", "value": 11.8 },
+    { "base": "USD", "quote": "GHS", "type": "sell", "value": 11.8059 },
+    { "base": "USD", "quote": "GHS", "type": "buy", "value": 11.7941 },
     // … the rest of the published table (14 currencies vs GHS)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bank-of-ghana-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'GHS', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'GHS', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'GHS',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 11.6225, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 11.8, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
