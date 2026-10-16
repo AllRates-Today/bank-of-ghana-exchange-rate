@@ -42,52 +42,52 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Bank of Ghana — 42 rates. Updated 2026-10-15.
+Published **2026-10-16** by Bank of Ghana — 42 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | GHS | buy | 8.0493 |
-| AUD | GHS | middle | 8.0545 |
-| AUD | GHS | sell | 8.0596 |
-| CAD | GHS | buy | 8.2042 |
-| CAD | GHS | middle | 8.2082 |
-| CAD | GHS | sell | 8.2121 |
-| CHF | GHS | buy | 14.038 |
-| CHF | GHS | middle | 14.0443 |
-| CHF | GHS | sell | 14.0506 |
-| CNY | GHS | buy | 1.7405 |
-| CNY | GHS | middle | 1.7413 |
-| CNY | GHS | sell | 1.742 |
-| DKK | GHS | buy | 1.7454 |
-| DKK | GHS | middle | 1.7462 |
-| DKK | GHS | sell | 1.747 |
-| EUR | GHS | buy | 13.0459 |
-| EUR | GHS | middle | 13.053 |
-| EUR | GHS | sell | 13.06 |
-| GBP | GHS | buy | 15.432 |
-| GBP | GHS | middle | 15.4403 |
-| GBP | GHS | sell | 15.4486 |
-| JPY | GHS | buy | 0.0736 |
-| JPY | GHS | middle | 0.0737 |
-| JPY | GHS | sell | 0.0737 |
-| NOK | GHS | buy | 1.2278 |
-| NOK | GHS | middle | 1.2283 |
-| NOK | GHS | sell | 1.2287 |
-| NZD | GHS | buy | 6.5277 |
-| NZD | GHS | middle | 6.532 |
-| NZD | GHS | sell | 6.5363 |
-| SEK | GHS | buy | 1.1683 |
-| SEK | GHS | middle | 1.1688 |
-| SEK | GHS | sell | 1.1693 |
-| USD | GHS | buy | 11.6442 |
-| USD | GHS | middle | 11.65 |
-| USD | GHS | sell | 11.6558 |
-| WAU | GHS | buy | 0.0126 |
-| WAU | GHS | middle | 0.0126 |
-| WAU | GHS | sell | 0.0126 |
-| ZAR | GHS | buy | 0.7042 |
-| ZAR | GHS | middle | 0.7044 |
-| ZAR | GHS | sell | 0.7046 |
+| AUD | GHS | buy | 8.101 |
+| AUD | GHS | middle | 8.1062 |
+| AUD | GHS | sell | 8.1113 |
+| CAD | GHS | buy | 8.2359 |
+| CAD | GHS | middle | 8.2399 |
+| CAD | GHS | sell | 8.2439 |
+| CHF | GHS | buy | 14.1503 |
+| CHF | GHS | middle | 14.1566 |
+| CHF | GHS | sell | 14.1629 |
+| CNY | GHS | buy | 1.744 |
+| CNY | GHS | middle | 1.7448 |
+| CNY | GHS | sell | 1.7456 |
+| DKK | GHS | buy | 1.7512 |
+| DKK | GHS | middle | 1.752 |
+| DKK | GHS | sell | 1.7528 |
+| EUR | GHS | buy | 13.0904 |
+| EUR | GHS | middle | 13.0964 |
+| EUR | GHS | sell | 13.1023 |
+| GBP | GHS | buy | 15.537 |
+| GBP | GHS | middle | 15.5454 |
+| GBP | GHS | sell | 15.5537 |
+| JPY | GHS | buy | 0.0738 |
+| JPY | GHS | middle | 0.0738 |
+| JPY | GHS | sell | 0.0738 |
+| NOK | GHS | buy | 1.2341 |
+| NOK | GHS | middle | 1.2346 |
+| NOK | GHS | sell | 1.235 |
+| NZD | GHS | buy | 6.5877 |
+| NZD | GHS | middle | 6.592 |
+| NZD | GHS | sell | 6.5963 |
+| SEK | GHS | buy | 1.1756 |
+| SEK | GHS | middle | 1.1761 |
+| SEK | GHS | sell | 1.1765 |
+| USD | GHS | buy | 11.6592 |
+| USD | GHS | middle | 11.665 |
+| USD | GHS | sell | 11.6708 |
+| WAU | GHS | buy | 0.0125 |
+| WAU | GHS | middle | 0.0125 |
+| WAU | GHS | sell | 0.0125 |
+| ZAR | GHS | buy | 0.708 |
+| ZAR | GHS | middle | 0.7082 |
+| ZAR | GHS | sell | 0.7084 |
 
 Source: [Official rates published by BOG, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bog/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -283,7 +283,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bog/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bog')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bog ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
