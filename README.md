@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bog').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Bank of Ghana — 42 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Bank of Ghana — 42 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | GHS | buy | 8.1212 |
-| AUD | GHS | middle | 8.1256 |
-| AUD | GHS | sell | 8.13 |
-| CAD | GHS | buy | 8.2568 |
-| CAD | GHS | middle | 8.2608 |
-| CAD | GHS | sell | 8.2648 |
-| CHF | GHS | buy | 14.0454 |
-| CHF | GHS | middle | 14.0523 |
-| CHF | GHS | sell | 14.0592 |
-| CNY | GHS | buy | 1.7368 |
-| CNY | GHS | middle | 1.7377 |
-| CNY | GHS | sell | 1.7386 |
-| DKK | GHS | buy | 1.7426 |
-| DKK | GHS | middle | 1.7434 |
-| DKK | GHS | sell | 1.7442 |
-| EUR | GHS | buy | 13.0252 |
-| EUR | GHS | middle | 13.0311 |
-| EUR | GHS | sell | 13.037 |
-| GBP | GHS | buy | 15.5104 |
-| GBP | GHS | middle | 15.5187 |
-| GBP | GHS | sell | 15.527 |
-| JPY | GHS | buy | 0.0733 |
-| JPY | GHS | middle | 0.0734 |
-| JPY | GHS | sell | 0.0734 |
-| NOK | GHS | buy | 1.2333 |
-| NOK | GHS | middle | 1.2338 |
-| NOK | GHS | sell | 1.2342 |
-| NZD | GHS | buy | 6.5888 |
-| NZD | GHS | middle | 6.5931 |
-| NZD | GHS | sell | 6.5974 |
-| SEK | GHS | buy | 1.1709 |
-| SEK | GHS | middle | 1.1714 |
-| SEK | GHS | sell | 1.1719 |
-| USD | GHS | buy | 11.6 |
-| USD | GHS | middle | 11.6058 |
-| USD | GHS | sell | 11.6116 |
-| WAU | GHS | buy | 0.0127 |
-| WAU | GHS | middle | 0.0127 |
-| WAU | GHS | sell | 0.0127 |
-| ZAR | GHS | buy | 0.7078 |
-| ZAR | GHS | middle | 0.7081 |
-| ZAR | GHS | sell | 0.7083 |
+| AUD | GHS | buy | 8.1841 |
+| AUD | GHS | middle | 8.1885 |
+| AUD | GHS | sell | 8.1929 |
+| CAD | GHS | buy | 8.2805 |
+| CAD | GHS | middle | 8.2843 |
+| CAD | GHS | sell | 8.2881 |
+| CHF | GHS | buy | 14.1116 |
+| CHF | GHS | middle | 14.1186 |
+| CHF | GHS | sell | 14.1255 |
+| CNY | GHS | buy | 1.7451 |
+| CNY | GHS | middle | 1.746 |
+| CNY | GHS | sell | 1.7468 |
+| DKK | GHS | buy | 1.7484 |
+| DKK | GHS | middle | 1.7493 |
+| DKK | GHS | sell | 1.7501 |
+| EUR | GHS | buy | 13.0686 |
+| EUR | GHS | middle | 13.0751 |
+| EUR | GHS | sell | 13.0815 |
+| GBP | GHS | buy | 15.5947 |
+| GBP | GHS | middle | 15.6031 |
+| GBP | GHS | sell | 15.6115 |
+| JPY | GHS | buy | 0.0737 |
+| JPY | GHS | middle | 0.0737 |
+| JPY | GHS | sell | 0.0737 |
+| NOK | GHS | buy | 1.2416 |
+| NOK | GHS | middle | 1.2421 |
+| NOK | GHS | sell | 1.2426 |
+| NZD | GHS | buy | 6.6309 |
+| NZD | GHS | middle | 6.6345 |
+| NZD | GHS | sell | 6.638 |
+| SEK | GHS | buy | 1.1767 |
+| SEK | GHS | middle | 1.1772 |
+| SEK | GHS | sell | 1.1777 |
+| USD | GHS | buy | 11.6492 |
+| USD | GHS | middle | 11.655 |
+| USD | GHS | sell | 11.6608 |
+| WAU | GHS | buy | 0.0125 |
+| WAU | GHS | middle | 0.0125 |
+| WAU | GHS | sell | 0.0125 |
+| ZAR | GHS | buy | 0.7111 |
+| ZAR | GHS | middle | 0.7114 |
+| ZAR | GHS | sell | 0.7116 |
 
 </details>
 
