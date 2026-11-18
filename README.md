@@ -32,52 +32,52 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-16 by Bank of Ghana — 42 rates. Updated 2026-11-17.</summary>
+<summary>Table as text: published 2026-11-17 by Bank of Ghana — 42 rates. Updated 2026-11-18.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | GHS | buy | 7.9155 |
-| AUD | GHS | middle | 7.9195 |
-| AUD | GHS | sell | 7.9234 |
-| CAD | GHS | buy | 8.1945 |
-| CAD | GHS | middle | 8.1982 |
-| CAD | GHS | sell | 8.2018 |
-| CHF | GHS | buy | 13.9709 |
-| CHF | GHS | middle | 13.9773 |
-| CHF | GHS | sell | 13.9836 |
-| CNY | GHS | buy | 1.7594 |
-| CNY | GHS | middle | 1.7602 |
-| CNY | GHS | sell | 1.7609 |
-| DKK | GHS | buy | 1.7265 |
-| DKK | GHS | middle | 1.7273 |
-| DKK | GHS | sell | 1.728 |
-| EUR | GHS | buy | 12.9062 |
-| EUR | GHS | middle | 12.9116 |
-| EUR | GHS | sell | 12.917 |
-| GBP | GHS | buy | 15.463 |
-| GBP | GHS | middle | 15.4707 |
-| GBP | GHS | sell | 15.4784 |
-| JPY | GHS | buy | 0.0735 |
-| JPY | GHS | middle | 0.0735 |
-| JPY | GHS | sell | 0.0735 |
-| NOK | GHS | buy | 1.2166 |
-| NOK | GHS | middle | 1.2171 |
-| NOK | GHS | sell | 1.2175 |
-| NZD | GHS | buy | 6.4573 |
-| NZD | GHS | middle | 6.4613 |
-| NZD | GHS | sell | 6.4653 |
-| SEK | GHS | buy | 1.1618 |
-| SEK | GHS | middle | 1.1623 |
-| SEK | GHS | sell | 1.1627 |
-| USD | GHS | buy | 11.7241 |
-| USD | GHS | middle | 11.73 |
-| USD | GHS | sell | 11.7359 |
-| WAU | GHS | buy | 0.0124 |
-| WAU | GHS | middle | 0.0124 |
-| WAU | GHS | sell | 0.0124 |
-| ZAR | GHS | buy | 0.6904 |
-| ZAR | GHS | middle | 0.6906 |
-| ZAR | GHS | sell | 0.6908 |
+| AUD | GHS | buy | 7.9107 |
+| AUD | GHS | middle | 7.9158 |
+| AUD | GHS | sell | 7.9208 |
+| CAD | GHS | buy | 8.2206 |
+| CAD | GHS | middle | 8.2244 |
+| CAD | GHS | sell | 8.2281 |
+| CHF | GHS | buy | 13.9965 |
+| CHF | GHS | middle | 14.0034 |
+| CHF | GHS | sell | 14.0103 |
+| CNY | GHS | buy | 1.7619 |
+| CNY | GHS | middle | 1.7628 |
+| CNY | GHS | sell | 1.7636 |
+| DKK | GHS | buy | 1.7289 |
+| DKK | GHS | middle | 1.7297 |
+| DKK | GHS | sell | 1.7305 |
+| EUR | GHS | buy | 12.9234 |
+| EUR | GHS | middle | 12.9293 |
+| EUR | GHS | sell | 12.9352 |
+| GBP | GHS | buy | 15.5081 |
+| GBP | GHS | middle | 15.5165 |
+| GBP | GHS | sell | 15.5248 |
+| JPY | GHS | buy | 0.0737 |
+| JPY | GHS | middle | 0.0738 |
+| JPY | GHS | sell | 0.0738 |
+| NOK | GHS | buy | 1.2208 |
+| NOK | GHS | middle | 1.2213 |
+| NOK | GHS | sell | 1.2218 |
+| NZD | GHS | buy | 6.4576 |
+| NZD | GHS | middle | 6.4619 |
+| NZD | GHS | sell | 6.4661 |
+| SEK | GHS | buy | 1.1614 |
+| SEK | GHS | middle | 1.1619 |
+| SEK | GHS | sell | 1.1624 |
+| USD | GHS | buy | 11.7441 |
+| USD | GHS | middle | 11.75 |
+| USD | GHS | sell | 11.7559 |
+| WAU | GHS | buy | 0.0123 |
+| WAU | GHS | middle | 0.0123 |
+| WAU | GHS | sell | 0.0123 |
+| ZAR | GHS | buy | 0.6926 |
+| ZAR | GHS | middle | 0.6928 |
+| ZAR | GHS | sell | 0.693 |
 
 </details>
 
